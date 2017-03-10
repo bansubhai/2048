@@ -1,0 +1,97 @@
+body{
+    background-image: url("assets/images/background.jpg");
+    background-size: contain;
+    animation: animatedBackground 40s linear infinite;
+}
+
+@keyframes animatedBackground{
+    from{
+        background-position: 100% 100%;
+    }
+    50%{
+        background-position: 0 100%;
+    }
+    to{
+        background-position: 100% 100%;
+    }
+}
+
+#outer{
+    display: flex;
+    height: 96vh;
+    align-items: center;
+    justify-content: center;
+}
+
+#gamediv{
+    background-color: #827676;
+    display: inline-block;
+    padding: 4px;
+    border-radius: 8px;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    text-align: center;
+    line-height: 100px;
+    color: blue;
+    font-family: sans-serif;
+    font-size: xx-large;
+    background-color: #bfb9b9;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.red{
+    background-color: red;
+}
+
+.bigger{
+    background-color: #a30000;
+}
+
+.twoZeroFourEight{
+    background-color: #ff0000;
+}
+
+.oneZeroTwoFour{
+    background-color: #f6ff00;
+}
+
+.fiveOneTwo{
+    background-color: #ffee00;
+}
+
+.twoFiveSix{
+    background-color: #fff12d;
+}
+
+.oneTwoEight{
+    background-color: #fff466;
+}
+
+.sixFour{
+    background-color: #ff4d07;
+}
+
+.threeTwo{
+    background-color: #ff743d;
+}
+
+.oneSix{
+    background-color: #ff7f16;
+}
+
+.eight{
+    background-color: #ff9b38;
+}
+
+.four{
+    background-color:  #fbff38;
+}
+
+.two{
+    background-color: #f9eeb6;
+}
